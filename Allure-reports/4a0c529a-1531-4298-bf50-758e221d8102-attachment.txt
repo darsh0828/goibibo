@@ -1,0 +1,3 @@
+entering log_on_failure
+waiting for log_on_failure
+executing log_on_failure

@@ -1,0 +1,5 @@
+2025-10-20 11:56:13 [INFO] __main__: this is another logsdaf
+2025-10-20 11:56:13 [ERROR] __main__: This is an error
+2025-10-20 11:57:22 [DEBUG] __main__: this is debug log
+2025-10-20 11:57:22 [INFO] __main__: this is another logsdaf
+2025-10-20 11:57:22 [ERROR] __main__: This is an error

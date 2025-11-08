@@ -1,0 +1,60 @@
+2025-10-25 11:52:52,074 - BasePage.py:[18] - [INFO] - Clicking on an element goto_flight_XPATH
+2025-10-25 11:52:55,267 - BasePage.py:[18] - [INFO] - Clicking on an element search_flight_RESOURCEID
+2025-10-25 11:53:02,104 - BasePage.py:[18] - [INFO] - Clicking on an element dismiss_RESOURCEID
+2025-10-25 11:53:41,825 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:06:41,668 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:07:03,782 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:22:54,759 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:24:05,863 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:29:02,231 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:29:02,971 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 12:29:04,797 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 12:29:21,925 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:29:23,743 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 12:29:25,626 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Dubai']
+2025-10-25 12:34:41,752 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:34:42,479 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 12:34:44,341 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 12:34:46,824 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 12:34:47,015 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 12:34:53,415 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 12:34:54,135 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 12:34:56,458 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Dubai']
+2025-10-25 12:34:57,830 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 12:34:59,121 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 13:55:08,005 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 13:55:08,735 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 13:55:10,550 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 13:55:13,120 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 13:55:13,301 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 13:55:18,788 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 13:55:20,612 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 13:55:22,486 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Dubai']
+2025-10-25 13:55:24,980 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 13:55:25,168 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 14:15:41,703 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 14:15:42,452 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 14:15:44,812 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 14:15:48,129 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 14:15:48,289 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 15:39:26,253 - BasePage.py:[18] - [INFO] - Clicking on an element goto_flight_XPATH
+2025-10-25 15:39:29,254 - BasePage.py:[18] - [INFO] - Clicking on an element search_flight_RESOURCEID
+2025-10-25 15:39:34,410 - BasePage.py:[18] - [INFO] - Clicking on an element dismiss_RESOURCEID
+2025-10-25 15:39:39,297 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 15:39:41,147 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 15:39:43,011 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 15:39:45,545 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 15:39:45,741 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 15:39:51,129 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 15:39:53,109 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 15:39:54,985 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Dubai']
+2025-10-25 15:48:10,454 - BasePage.py:[18] - [INFO] - Clicking on an element goto_flight_XPATH
+2025-10-25 15:48:12,438 - BasePage.py:[18] - [INFO] - Clicking on an element search_flight_RESOURCEID
+2025-10-25 15:48:28,167 - BasePage.py:[18] - [INFO] - Clicking on an element dismiss_RESOURCEID
+2025-10-25 15:48:33,227 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 15:48:35,072 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-10-25 15:48:36,943 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-10-25 15:48:39,436 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-10-25 15:48:39,619 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-10-25 15:48:45,746 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 15:48:47,590 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
