@@ -1,7 +1,7 @@
-trigger: none   # Run manually or link to your branch later
+#trigger: none   # Run manually or link to your branch later
 
 pool:
-  name: Default   # or your custom agent pool name
+  name: SelfHostedMacPool   # or your custom agent pool name
 
 steps:
 # 1️⃣  Verify device connection
