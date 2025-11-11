@@ -21,7 +21,7 @@ steps:
 # 3️⃣  Run pytest tests
 - script: |
     echo "Running Appium tests..."
-    pytest tests/ --alluredir=allure-results
+    pytest Test_cases/test_search_hotel.py --alluredir=allure-results
   displayName: "Run pytest Appium tests"
 
 # 4️⃣  Generate Allure report (optional)
