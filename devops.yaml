@@ -36,3 +36,13 @@ steps:
     pathToPublish: 'allure-report'
     artifactName: 'allure-report'
   displayName: "Publish Allure report"
+  
+- script: |
+    zip -r allure-report.zip allure-report
+  displayName: "Zip Allure report"
+
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: 'allure-report.zip'
+    artifactName: 'allure-report-zip'
+  displayName: "Publish zipped Allure report"
