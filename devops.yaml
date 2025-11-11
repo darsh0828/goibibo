@@ -1,7 +1,7 @@
-trigger: none   # You can change to 'main' or any branch later
+#trigger: none   # You can change to 'main' or any branch later
 
 pool:
-  name: Default   # Your self-hosted Mac agent pool name
+  name: SelfHostedMacPool   # Your self-hosted Mac agent pool name
 
 steps:
 # 1️⃣  Clean previous test data
