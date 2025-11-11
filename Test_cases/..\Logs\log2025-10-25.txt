@@ -1,0 +1,4 @@
+2025-10-25 11:23:50,716 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-10-25 11:50:47,317 - BasePage.py:[18] - [INFO] - Clicking on an element goto_flight_XPATH
+2025-10-25 11:50:50,422 - BasePage.py:[18] - [INFO] - Clicking on an element search_flight_RESOURCEID
+2025-10-25 11:50:56,208 - BasePage.py:[18] - [INFO] - Clicking on an element dismiss_RESOURCEID
