@@ -32,13 +32,15 @@ steps:
 # 5️⃣  Generate Allure report
 - script: |
     echo "Generating Allure report..."
-    allure generate Allure-reports --clean -o allure-report
+    allure generate Allure-reports --clean -o Allure-reports
   displayName: "Generate Allure report"
 
 # 6️⃣  Publish Allure report directly in Azure DevOps (UI tab)
 - task: PublishHtmlReport@1
   displayName: "Publish Allure HTML Report"
   inputs:
-    reportDir: 'allure-report'
+    reportDir: 'Allure-reports'
     tabName: 'Allure Report'
     reportName: 'Appium Test Results'
+    artifactName: 'Allure-Report'
+    publishLocation: 'Container'
