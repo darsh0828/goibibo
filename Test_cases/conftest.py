@@ -1,5 +1,6 @@
 import allure
 import pytest
+import os
 from allure_commons.types import AttachmentType
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
@@ -35,9 +36,15 @@ def pytest_runtest_makereport(item, call):
     setattr(item, "rep_" + rep.when, rep)
     return rep
 
-
+# this is main fixture
 @pytest.fixture(scope='function')
 def appium_driver(request):
+    # username = os.getenv("BROWSERSTACK_USERNAME")
+    # access_key = os.getenv("BROWSERSTACK_ACCESS_KEY")
+    #
+    # if not username or not access_key:
+    #     raise Exception("Please set BROWSERSTACK_USERNAME and BROWSERSTACK_ACCESS_KEY as environment variables")
+
     desired_caps = dict(
         deviceName='Android',
         platformName='Android',
@@ -48,6 +55,8 @@ def appium_driver(request):
         fullReset=False
 
     )
+
+    # hub_url = f"https://{username}:{access_key}@hub.browserstack.com"
 
     capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
     driver = webdriver.Remote('http://127.0.0.1:4723', options=capabilities_options)
