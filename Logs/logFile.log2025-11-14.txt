@@ -1,0 +1,10 @@
+2025-11-14 20:33:12,153 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-11-14 20:33:13,918 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-11-14 20:33:15,758 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Delhi']
+2025-11-14 20:33:18,144 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-11-14 20:33:18,298 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH
+2025-11-14 20:33:22,687 - BasePage.py:[18] - [INFO] - Clicking on an element hotels_XPATH
+2025-11-14 20:33:24,484 - BasePage.py:[18] - [INFO] - Clicking on an element destination_search_XPATH
+2025-11-14 20:33:26,328 - BasePage.py:[32] - [INFO] - Typing on an element search_text_XPATH Enter the value as ['Dubai']
+2025-11-14 20:33:27,647 - BasePage.py:[18] - [INFO] - Clicking on an element select_city_XPATH
+2025-11-14 20:33:28,877 - BasePage.py:[18] - [INFO] - Clicking on an element search_XPATH

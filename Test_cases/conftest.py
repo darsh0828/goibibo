@@ -36,14 +36,14 @@ def pytest_runtest_makereport(item, call):
     setattr(item, "rep_" + rep.when, rep)
     return rep
 
-
+# this is main fixture
 @pytest.fixture(scope='function')
 def appium_driver(request):
-    username = os.getenv("BROWSERSTACK_USERNAME")
-    access_key = os.getenv("BROWSERSTACK_ACCESS_KEY")
-
-    if not username or not access_key:
-        raise Exception("Please set BROWSERSTACK_USERNAME and BROWSERSTACK_ACCESS_KEY as environment variables")
+    # username = os.getenv("BROWSERSTACK_USERNAME")
+    # access_key = os.getenv("BROWSERSTACK_ACCESS_KEY")
+    #
+    # if not username or not access_key:
+    #     raise Exception("Please set BROWSERSTACK_USERNAME and BROWSERSTACK_ACCESS_KEY as environment variables")
 
     desired_caps = dict(
         deviceName='Android',
@@ -56,10 +56,10 @@ def appium_driver(request):
 
     )
 
-    hub_url = f"https://{username}:{access_key}@hub.browserstack.com"
+    # hub_url = f"https://{username}:{access_key}@hub.browserstack.com"
 
     capabilities_options = UiAutomator2Options().load_capabilities(desired_caps)
-    driver = webdriver.Remote('hub_url', options=capabilities_options)
+    driver = webdriver.Remote('http://127.0.0.1:4723', options=capabilities_options)
     request.cls.driver = driver
     driver.implicitly_wait(10)
     yield driver
